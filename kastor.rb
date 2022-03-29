@@ -6,7 +6,7 @@ class Kastor < Formula
   license "MIT"
   
   def install
-    bin.install
+    bin.install "kastor"
     # system "./configure", *std_configure_args, "--disable-silent-rules"
   end
 
